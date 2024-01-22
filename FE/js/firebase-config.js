@@ -22,6 +22,7 @@ messaging
     console.error("Error getting permission or token:", error);
   });
 
+console.log("Hi, I am here");
 // Handle incoming messages
 messaging.onMessage((payload) => {
   console.log("Message received:", payload);
